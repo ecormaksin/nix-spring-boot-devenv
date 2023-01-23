@@ -12,6 +12,8 @@ pkgs.mkShell {
     pkgs.jetbrains.idea-community
     pkgs.jq
     pkgs.lombok
+    pkgs.nodenv
+    pkgs.powershell
     pkgs.vscode
     pkgs.vscode-extensions.alefragnani.bookmarks
     pkgs.vscode-extensions.alexdima.copy-relative-path
@@ -20,6 +22,7 @@ pkgs.mkShell {
     pkgs.vscode-extensions.esbenp.prettier-vscode
     pkgs.vscode-extensions.mikestead.dotenv
     pkgs.vscode-extensions.ms-ceintl.vscode-language-pack-ja
+    pkgs.vscode-extensions.ms-vscode.PowerShell
     pkgs.vscode-extensions.oderwat.indent-rainbow
     pkgs.vscode-extensions.redhat.java
     pkgs.vscode-extensions.vscjava.vscode-java-debug
