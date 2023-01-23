@@ -12,7 +12,7 @@ pkgs.mkShell {
     pkgs.jetbrains.idea-community
     pkgs.jq
     pkgs.lombok
-    pkgs.nodenv
+    pkgs.nodejs-18_x
     pkgs.powershell
     pkgs.vscode
     pkgs.vscode-extensions.alefragnani.bookmarks
