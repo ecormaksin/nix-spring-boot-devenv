@@ -6,7 +6,6 @@ pkgs.mkShell {
     pkgs.curl
     pkgs.docker
     pkgs.docker-compose
-    pkgs.google-chrome
     pkgs.gradle
     pkgs.gradle-completion
     pkgs.jdk
