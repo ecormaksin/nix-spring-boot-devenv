@@ -14,6 +14,7 @@ pkgs.mkShell {
     pkgs.lombok
     pkgs.nodejs-18_x
     pkgs.powershell
+    pkgs.tmux
     pkgs.vscode
     pkgs.vscode-extensions.alefragnani.bookmarks
     pkgs.vscode-extensions.alexdima.copy-relative-path
