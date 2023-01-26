@@ -1,6 +1,7 @@
 { pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/cdead16a444a3e5de7bc9b0af8e198b11bb01804.tar.gz") {} }:
 (
   pkgs.buildFHSUserEnv {
+    name = "dev-env";
     targetPkgs = pkgs:
     [
       pkgs.checkstyle
