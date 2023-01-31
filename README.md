@@ -7,7 +7,7 @@
   4. Setup docker
 
     ```bash
-     sudo ln -s /nix/store/<installed-folder>/etc/systemd/system/docker.service /usr/lib/systemd/system/docker.socket
+     sudo ln -s /nix/store/<installed-folder>/etc/systemd/system/docker.service /usr/lib/systemd/system/docker.service
      sudo ln -s /nix/store/<installed-folder>/etc/systemd/system/docker.socket /usr/lib/systemd/system/docker.socket
      sudo systemctl enable docker
      sudo groupadd docker
