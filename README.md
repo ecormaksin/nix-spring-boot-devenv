@@ -17,5 +17,8 @@
      ```
 
 - Tips
-  - [How to launch Intellij IDEA](https://stackoverflow.com/questions/63889372/launching-ide-directly-from-nix-shell)
-    - `idea-community 2>1 > /dev/null &`
+  - How to launch Intellij IDEA
+    - `idea-community &>/dev/null &`
+      - [ref1](https://stackoverflow.com/questions/63889372/launching-ide-directly-from-nix-shell)
+      - [ref2](https://qiita.com/kiyodori/items/a37cfc23f068a5c16b2c)
+      - [ref3](https://unix.stackexchange.com/questions/70963/difference-between-2-2-dev-null-dev-null-and-dev-null-21)
