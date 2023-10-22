@@ -1,20 +1,18 @@
-{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/cdead16a444a3e5de7bc9b0af8e198b11bb01804.tar.gz") {} }:
+{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-23.05") {} }:
 pkgs.mkShell {
   packages = with pkgs; [
     checkstyle
     curl
-    docker
-    docker-compose
+    eclipses.eclipse-jee
     glibcLocales
     gradle
     gradle-completion
-    jdk
+    jdk17
     jetbrains.idea-community
     jq
     lombok
     nodejs-18_x
     powershell
-    tmux
     vscode
     vscode-extensions.alefragnani.bookmarks
     vscode-extensions.alexdima.copy-relative-path
@@ -26,6 +24,7 @@ pkgs.mkShell {
     vscode-extensions.ms-vscode.PowerShell
     vscode-extensions.oderwat.indent-rainbow
     vscode-extensions.redhat.java
+    vscode-extensions.vscjava.vscode-gradle
     vscode-extensions.vscjava.vscode-java-debug
     vscode-extensions.vscjava.vscode-java-test
     vscode-extensions.vscjava.vscode-maven
