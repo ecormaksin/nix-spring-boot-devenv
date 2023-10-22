@@ -20,6 +20,7 @@ pkgs.mkShell {
     vscode-extensions.editorconfig.editorconfig
     vscode-extensions.esbenp.prettier-vscode
     vscode-extensions.mikestead.dotenv
+    vscode-extensions.ms-azuretools.vscode-docker
     vscode-extensions.ms-ceintl.vscode-language-pack-ja
     vscode-extensions.ms-vscode.PowerShell
     vscode-extensions.oderwat.indent-rainbow
